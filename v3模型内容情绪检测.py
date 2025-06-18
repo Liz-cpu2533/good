@@ -120,12 +120,12 @@ if __name__ == "__main__":
     from dotenv import load_dotenv
 
     load_dotenv()  # 从.env文件加载配置
-    os.environ["ARK_API_KEY"] = "f46d245b-7dbe-48e7-ac8a-4c19740cd14a"
+    os.environ["ARK_API_KEY"] = "xxx"
 
     # --------------------- 参数配置 ---------------------
     config = {
         "model_name": "deepseek-v3",
-        "model_id": "ep-bi-20250418153651-h8dqv",  # 替换你的真实端点ID
+        "model_id": "xxx",  # 替换你的真实端点ID
         "input_path": "C:/Users/admin/Desktop/去重后的选择题训练集.csv",
         "output_path": "修改内容情绪检测后的选择题训练集.csv",
         "concurrent": 50,  # 建议5-10之间 100
