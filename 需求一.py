@@ -197,12 +197,12 @@ class QuestionAnswerProcessor:
 if __name__ == "__main__":
     import os
     # 直接设置API Key
-    os.environ["ARK_API_KEY"] = "f46d245b-7dbe-48e7-ac8a-4c19740cd14a"
+    os.environ["ARK_API_KEY"] = "xxx"
     
     # 配置参数
     config = {
         "api_key": os.environ["ARK_API_KEY"],
-        "model_id": "ep-bi-20250418153651-h8dqv",
+        "model_id": "xxx",
         "input_file": "raw_data/需求一测试.csv",  # 输入CSV文件路径
         "output_file": "output.csv",  # 输出CSV文件路径
         "batch_size": 5,  # 每批处理的行数
