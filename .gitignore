@@ -1,0 +1,10 @@
+echo "# 通用忽略规则
+.venv/
+__pycache__/
+*.pyc
+*.log
+.DS_Store" > .gitignore
+
+git add .gitignore
+git commit -m "添加.gitignore"
+git push
